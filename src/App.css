@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+.invoice-amount{
+  display: flex;
+  justify-content: space-between;
+}
+.rate{
+  display: flex;
+  justify-content: space-between;
+}
+.fees{
+  display: flex;
+  justify-content: space-between;
+}
+.discounting-application{
+  display: flex;
+  justify-content: space-between;
+}
+.app-ref{
+  display: flex;
+  justify-content: space-between;
+}
+.app-wrapper {
+  padding: 2rem;
+  font-family: sans-serif;
+  background-color: #fff;
+  border: #000 solid 2px;
+  box-sizing: content-box;
+  height: 100%;
+  width: 80%;
+}
+
+.form-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex: 1;
+}
+
+.form-left {
+  flex: 1;
+  padding: 1rem;
+  padding-right: 2rem;
+  border-right: 2px solid #000; 
+  
+}
+
+.form-right {
+  flex: 1;
+  padding: 1rem;
+}
+
+.form-section-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  
+  padding-bottom: 0.5rem;
+}
+input[data-autofill] {
+  background-color: orange !important;
+  color: #000;
+  font-style: italic;
+}
+input {
+  border: 1px solid rgb(131, 180, 131) !important;
+  box-shadow: none !important;
+}
+
+input[data-system-generated] {
+  background-color: #eee !important;
+  font-style: italic;
+}
+input[type="date"][placeholder="Enter due date"] {
+  background-color: black !important;
+  color: white !important;
+}

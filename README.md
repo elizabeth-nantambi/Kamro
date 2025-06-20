@@ -57,4 +57,8 @@ export default tseslint.config({
 
 # Kamro
 
-90c5c5e67416189cb7f32b4c1572142c4aae5aba
+90c5c5e67416189cb7f32b4c1572142c4aae5ab
+
+# Kamro
+
+UI for Invoice Discounting Application
